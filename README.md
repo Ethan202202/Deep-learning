@@ -1,4 +1,7 @@
 # Deep-learning
+## Step 1: Prepare the data for training and testing
+## Step 2: Build and train custom LSTM RNNs
+## Step 3: Evaluate the performance of each model
 ## The predictor using closing prices has the lowest loss which is 0.0146 .
 ## The model using past closing prices tracks the actual values better.
 ## For the model using past closing prices, windows size 6 has the best performance.
