@@ -1,10 +1,16 @@
 # Deep-learning
+###  This assignment will use deep learning recurrent neural networks to model bitcoin closing prices.
 ## Step 1: Prepare the data for training and testing
+The first model is Fear and Greed model. I use the FNG values to try and predict the closing price.
+The second model is closing price model, I use previous closing prices to try and predict the next closing price.
+Each model has 70% of the data for training and 30% of the data for testing.
 ## Step 2: Build and train custom LSTM RNNs
+Using the same parameters and training steps for each model to compare each model accurately.
 ## Step 3: Evaluate the performance of each model
-## The predictor using closing prices has the lowest loss which is 0.0146 .
-## The model using past closing prices tracks the actual values better.
-## For the model using past closing prices, windows size 6 has the best performance.
+## Result:
+### The predictor using closing prices has the lowest loss which is 0.0146 .
+### The model using past closing prices tracks the actual values better.
+### For the model using past closing prices, windows size 6 has the best performance.
 ## Here are the mean standard error for each window: 
 ### 1 :0.0721718
 ### 2 :0.0411839
